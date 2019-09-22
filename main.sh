@@ -75,3 +75,6 @@ sudo chsh -s /usr/bin/zsh $(whoami)
 
 #helpers
 source ./helpers.sh
+
+#project init
+source ./projects.sh
