@@ -1,7 +1,9 @@
+!#/bin/bash
 #variables to assign before running
 #$AWS_PROFILE_NAME
 
 source ./wifi.sh
+#essentials
 sudo apt install wget ncdu git curl dnsutils git-core curl build-essential openssl libssl-dev
 
 #git
@@ -71,4 +73,5 @@ sudo apt install zsh
 sudo chsh -s /usr/bin/zsh root
 sudo chsh -s /usr/bin/zsh $(whoami)
 
-
+#helpers
+source ./helpers.sh
