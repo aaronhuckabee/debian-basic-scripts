@@ -4,7 +4,7 @@
 
 source ./wifi.sh
 #essentials
-sudo apt install wget ncdu git curl dnsutils git-core curl build-essential openssl libssl-dev
+sudo apt install wget ncdu git curl dnsutils git-core curl build-essential openssl libssl-dev zip
 
 #git
 git config credential.helper store --global
